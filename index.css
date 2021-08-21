@@ -1,0 +1,42 @@
+.grid-container{
+  display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    padding-top: 15%;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+
+}
+.cell{
+
+  font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 2rem;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255,255,255,0.9),
+      rgba(255,255,255,0.6)
+      );
+      text-align: center;
+
+
+
+}
+body{
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+}
+.game--status{
+  display: flex;
+  justify-content: center;
+
+}
+.gr{
+  display: flex;
+  justify-content: center;
+}
